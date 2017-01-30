@@ -74,12 +74,62 @@
 									<height>600</height>
 									<outputFile>${project.build.directory}/jmeter/results/Transactionspersecond.png</outputFile>
 								</graph>
-								<graph>
+									<graph>
 									<pluginType>ResponseTimesOverTime</pluginType>
 									<width>800</width>
 									<height>600</height>
 									<outputFile>${project.build.directory}/jmeter/results/ResponseTimesOverTime.png</outputFile>
 								</graph>
+							
+								<graph>
+									<pluginType>HitsPerSecond</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/HitsPerSecond.png</outputFile>
+								</graph>
+							
+								<graph>
+									<pluginType>BytesThroughputOverTime</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/BytesThroughputOverTime.png</outputFile>
+								</graph>
+							
+								<graph>
+									<pluginType>LatenciesOverTime</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/LatenciesOverTime.png</outputFile>
+								</graph>
+							
+							<graph>
+									<pluginType>ResponseCodesPerSecond</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/ResponseCodesPerSecond.png</outputFile>
+								</graph>
+							
+							<graph>
+									<pluginType>ResponseTimesDistribution</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/ResponseTimesDistribution.png</outputFile>
+								</graph>
+							
+							<graph>
+									<pluginType>ResponseTimesPercentiles</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/ResponseTimesPercentiles.png</outputFile>
+								</graph>
+							
+							<graph>
+									<pluginType>ThreadsStateOverTime</pluginType>
+									<width>800</width>
+									<height>600</height>
+									<outputFile>${project.build.directory}/jmeter/results/ThreadsStateOverTime.png</outputFile>
+								</graph>
+							
 							</graphs>
 						</configuration>
 					</execution>
